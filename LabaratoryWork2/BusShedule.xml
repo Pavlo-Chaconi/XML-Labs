@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BusSchedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.com/BusSchedule">
+  <DeparturePoints>
+    <DeparturePoint>
+      <Code>DP01</Code>
+      <Name>Кемеровский АВ</Name>
+    </DeparturePoint>
+    <DeparturePoint>
+      <Code>DP02</Code>
+      <Name>Прокопьевская АС</Name>
+    </DeparturePoint>
+    <DeparturePoint>
+      <Code>DP03</Code>
+      <Name>Новокузнецкий АВ</Name>
+    </DeparturePoint>
+  </DeparturePoints>
+  <ArrivalPoints>
+    <ArrivalPoint>
+      <Code>AP01</Code>
+      <Name>Красноярский АВ</Name>
+    </ArrivalPoint>
+    <ArrivalPoint>
+      <Code>AP02</Code>
+      <Name>Новосибирский АВ</Name>
+    </ArrivalPoint>
+    <ArrivalPoint>
+      <Code>AP03</Code>
+      <Name>Томский АВ</Name>
+    </ArrivalPoint>
+  </ArrivalPoints>
+  <Routes>
+    <Route>
+      <Code>R001</Code>
+      <DeparturePointCode>DP01</DeparturePointCode>
+      <ArrivalPointCode>AP01</ArrivalPointCode>
+      <Days>ежедневно</Days>
+      <DepartureTime>08:00 </DepartureTime>
+      <ArrivalTime>14:00 </ArrivalTime>
+      <Price>1500</Price>
+    </Route>
+    <Route>
+      <Code>R002</Code>
+      <DeparturePointCode>DP01</DeparturePointCode>
+      <ArrivalPointCode>AP02</ArrivalPointCode>
+      <Days>еженедельно: пн, чт</Days>
+      <DepartureTime>09:00</DepartureTime>
+      <ArrivalTime>15:00</ArrivalTime>
+      <Price>1300</Price>
+    </Route>
+    <Route>
+      <Code>R003</Code>
+      <DeparturePointCode>DP02</DeparturePointCode>
+      <ArrivalPointCode>AP03</ArrivalPointCode>
+      <Days>ежедневно</Days>
+      <DepartureTime>10:00</DepartureTime>
+      <ArrivalTime>13:00</ArrivalTime>
+      <Price>1100</Price>
+    </Route>
+    <Route>
+      <Code>R004</Code>
+      <DeparturePointCode>DP03</DeparturePointCode>
+      <ArrivalPointCode>AP01</ArrivalPointCode>
+      <Days>еженедельно: вт, сб</Days>
+      <DepartureTime>07:00</DepartureTime>
+      <ArrivalTime>12:00</ArrivalTime>
+      <Price>1400</Price>
+    </Route>
+    <Route>
+      <Code>R005</Code>
+      <DeparturePointCode>DP03</DeparturePointCode>
+      <ArrivalPointCode>AP02</ArrivalPointCode>
+      <Days>ежедневно</Days>
+      <DepartureTime>06:00</DepartureTime>
+      <ArrivalTime>11:00</ArrivalTime>
+      <Price>1200</Price>
+    </Route>
+  </Routes>
+</BusSchedule>
